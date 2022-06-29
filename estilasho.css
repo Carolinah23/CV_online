@@ -9,3 +9,18 @@ p {
 ul {color: whitesmoke;
     background-color: black;
 }
+.flex-container {
+    display: flex;
+    background-color:blue;
+    color: azure;
+    flex-direction: row;
+  }
+  
+  .flex-container > div {
+    background-color: black;
+    margin: 10px;
+    padding: 10px auto 10px auto;
+    font-size: 20px;
+    text-align: center;
+    align-items: stretch;
+  }
